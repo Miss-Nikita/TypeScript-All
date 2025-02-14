@@ -1,38 +1,25 @@
 // Primitive DataType
 // Primitive  - Number, String, Boolean, Null, , Symbol
 // Non-Primitive - Object, Array, Function
-
 // stynax of TypeScript : let variableName : DataType = value;
 // any ka use hum jb krte hain jb hume kisi variable ka data type pta na ho
-
 // You usually want to avoid this, though, because any isn’t type-checked.
 // Use the compiler flag noImplicitAny to flag any implicit any as an error.
-
 // Number DataType
-let age : Number = 30;
+var age = 30;
 console.log(age);
-
-
 // String DataType
-let username : String = "John";
+var username = "John";
 console.log(username);
-
-
 // Boolean DataType
-let isvalid : Boolean = true;
+var isvalid = true;
 console.log(isvalid);
-
-
 // Null DataType
-let data : null = null;
+var data = null;
 console.log(data);
-
-
 // Undefined DataType
-let data1 : undefined = undefined;
+var data1 = undefined;
 console.log(data1);
-
-
 // use of any 
-let id : any = 100;
+var id = 100;
 console.log(id);
