@@ -19,8 +19,30 @@
 // createProduct(100, "Pen Tablet");   this is wrong 
 
 
+//  this is Parameter Type
+// function createProduct (name:String,price:number){
+//     console.log(name,price);
+// }
+// createProduct("Pen Tablet",50000);
 
-function createProduct (name:String,price:number){
-    console.log(name,price);
-}
-createProduct("Pen Tablet",50000);
+
+// this is return type
+// function createProduct ():String {
+//   return "fghfghf"
+// }
+// let x = createProduct();
+// console.log(x);
+
+
+// this is void return type
+// function createProduct ():void {
+//     console.log("fghfghf")
+//   }
+//   let x = createProduct();
+//   console.log(x);
+
+
+
+// Return Type (void and never)
+// void :- it is used when a function does not return any value
+// never :- it is used when a function does not return any value and never reach the end of the function
