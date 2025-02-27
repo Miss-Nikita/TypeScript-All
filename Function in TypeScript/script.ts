@@ -1,6 +1,7 @@
 // Function
 // Parameter Type
 // Return Type (void and never)
+// never return type
 // Optional Parameter
 
 
@@ -41,6 +42,12 @@
 //   let x = createProduct();
 //   console.log(x);
 
+
+// never return type
+function erroHandler ():never {
+    throw new Error("Error")
+  }
+  erroHandler();
 
 
 // Return Type (void and never)
