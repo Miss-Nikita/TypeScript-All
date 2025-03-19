@@ -6,3 +6,4 @@
 
 console.log("hello from Type script");
 
+// $ tsc script.ts --watch
