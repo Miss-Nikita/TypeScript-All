@@ -29,7 +29,7 @@ console.log(person1);
 type ID = number;
 // for multiple variable
 type Product = {
-  readonly id: number | string | boolean;
+  readonly id: number | string | boolean;  //this is known as union type '|' 
   name: string;
   price: number;
   brand: string;
