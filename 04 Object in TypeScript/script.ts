@@ -24,7 +24,9 @@ console.log(person1);
 // is approch is  good but if we have to use this object in multiple places
 //  then we have to write this object multiple times so we can use type Aliases
 
-// type Aliases
+
+
+//                                   // this is type Aliases
 // for single variable
 type ID = number;
 // for multiple variable
