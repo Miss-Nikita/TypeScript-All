@@ -7,9 +7,10 @@
 
 // Function :- Function is a set of statements that performs a task or calculates a value
 
+
 // Function syntax of TypeScript 
 //  function functionName(parameter1 : DataType, parameter2 : DataType, ...) : ReturnType{
-    // code 
+//     code 
 // }
 
 // Function syntax of javaScript 

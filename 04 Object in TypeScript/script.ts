@@ -6,7 +6,7 @@
 
 console.log("hello from Type script");
 
-// this is normal object
+// This is normal object
 var person = {
   name: "John",
   price: 1000,
@@ -24,14 +24,12 @@ console.log(person1);
 // is approch is  good but if we have to use this object in multiple places
 //  then we have to write this object multiple times so we can use type Aliases
 
-
-
-//                                   // this is type Aliases
+//                                  //  this is type Aliases
 // for single variable
 type ID = number;
 // for multiple variable
 type Product = {
-  readonly id: number | string | boolean;  //this is known as union type '|' 
+  readonly id: number | string | boolean; //this is known as union type '|'
   name: string;
   price: number;
   brand: string;
@@ -39,32 +37,32 @@ type Product = {
 };
 
 type ProductDetails = {
-    readonly id: number | string | boolean;
-    name: string;
-    price: number;
-    brand: string;
-    Discount?: number;
-    stock: number;
-    category: string;
-  };
-//   this is konw as code detendances or code duplication
+  readonly id: number | string | boolean;
+  name: string;
+  price: number;
+  brand: string;
+  Discount?: number;
+  stock: number;
+  category: string;
+};
+//   this is known as code detendances or code duplication
 //   so you can write this like
 
-type ProductDetails1 = Product &{
-    stock: number;
-    category: string;
-  };
+type ProductDetails1 = Product & {
+  stock: number;
+  category?: string;
+};
 
-//   this is the example 
+//   this is the example
 var person3: ProductDetails1 = {
-    id: 1,
-    name: "John",
-    price: 1000,
-    brand: "logitech",
-    Discount: 10,
-    stock:343,
-    category:"sdfg"
-  };
+  id: 1,
+  name: "John",
+  price: 1000,
+  brand: "logitech",
+  Discount: 10,
+  stock: 343,
+  category: "sdfg",
+};
 
 // optional properties
 // ? means user can use this property or not use bhi kr skta hai or nhi bhi kr skta it upto user choice
